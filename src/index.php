@@ -43,7 +43,7 @@ $md = Markdown::defaultTransform($source);
 	</style>
 </head>
 <body>
-	<a href="?source">Visa källa</a>
+	<a href="?source">Show Source</a>
 	<?=$md?>
 </body>
 </html>
