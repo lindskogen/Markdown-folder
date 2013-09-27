@@ -1,2 +1,3 @@
 RewriteEngine On
-RewriteRule ^([A-Öa-ö0-9-]+\.md)$	src/index.php?file=$1 [NC,QSA,L]
+RewriteRule ^([\w\.\(\)\[\]-]+\.md)$	src/index.php?file=$1 [NC,QSA,L]
+# Matches: one or more 'word character . ( ) [ ] -' ending with '.md'
